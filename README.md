@@ -18,3 +18,5 @@ to install the fonts.
 Once this is completed, when exporting a .key file to PDF on your system,
 it should appear identical to the PDF cached in this repo.
 If it does not, then the fonts may not be properly installed.
+
+To make the JPEG file, open the PDF and export to JPEG, specify quality to best with 300 pixels/inch.
