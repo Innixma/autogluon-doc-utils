@@ -1,0 +1,43 @@
+\documentclass[10pt,landscape,a4paper]{article}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\usepackage[default]{sourcesanspro}
+% \usepackage[default,light]{sourcesanspro}
+\usepackage{sourcecodepro}
+\usepackage{tikz}
+\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
+\usepackage[nosf]{kpfonts}
+\usepackage{multicol}
+\usepackage{wrapfig}
+\usepackage[top=5mm,bottom=5mm,left=5mm,right=5mm]{geometry}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{parskip}
+\usepackage{minted}
+\usepackage{microtype}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage[none]{hyphenat}
+\usepackage{listings}
+
+\graphicspath{ {./images/} }
+
+\let\bar\overline
+
+\newcommand{\autogluonVersion}{1.0.0}
+\newcommand{\autogluonModule}{Multimodal}
+
+\include{def}
+% \include{def_timeseries}
+
+\begin{document}
+%\footnotesize
+\small
+\begin{multicols*}{3}
+
+\input{multimodal/content_1_0_0}
+
+
+\end{multicols*}
+\end{document}
