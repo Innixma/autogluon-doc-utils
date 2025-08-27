@@ -20,3 +20,10 @@ it should appear identical to the PDF cached in this repo.
 If it does not, then the fonts may not be properly installed.
 
 To make the JPEG file, open the PDF and export to JPEG, specify quality to best with 300 pixels/inch.
+
+## Updating cheat-sheet for TimeSeries
+
+1. Compile the LaTeX source for the cheat sheet.
+2. Export the compiled PDF to JPEG with DPI of 300 pixels/inch.
+3. Replace cheat-sheet files in `docs/cheatsheets/stable/timeseries/` with the latest version.
+4. Add cheat-sheet files to `docs/cheatsheets/VERSION/timeseries/` for future reference.
